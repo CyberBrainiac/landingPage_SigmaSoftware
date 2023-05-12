@@ -1,2 +1,2 @@
-# landingPage_SigmaSoftware
-first homework on Sigma university course
+## landingPage_SigmaSoftware
+fully responsive design to 768/768 pixel screen extension
