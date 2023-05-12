@@ -1,0 +1,74 @@
+.page_2 {
+  color: #424242;
+  display: flex;
+  justify-content: center;
+  margin-top: 18vh;
+}
+
+.howItWorks { width: 74%; }
+.howItWorks > p {
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 157%;
+  font-family: 'Lato-Semibold', 'Lato', sans-serif;
+}
+
+.alivoOffers_wrapper {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 7vw;
+  grid-template-rows: 1fr;
+}
+.alivoOffers_wrapper > p { padding-top: 2.6vh; }
+
+.threeStep {
+  margin-top: 8vh;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 4vw;
+  grid-template-rows: repeat(5, 1fr);
+}
+.threeStep p {
+  margin-top: 6vh;
+  margin-bottom: 4vh;
+  font-weight: 500;
+}
+
+.firstStep {
+  grid-row: 1/5;
+  position: relative;
+}
+
+.secondStep {
+  grid-row: 2/6;
+  position: relative;
+  top: 5vh;
+}
+.secondStep > h3 {
+  text-align: end;
+}
+
+.thirdStep {
+  grid-row: 1/5;
+  position: relative;
+  top: 6vh;
+}
+.thirdStep > p {
+  margin-top: 4vh;
+}
+
+.page2_imgContainer { border-radius: 12px; }
+
+.background_number {
+  position: absolute;
+  top: 0;
+  left: 7%;
+  font-size: 150px;
+  line-height: 25%;
+  font-family: 'Georgia-Regular', 'Times New Roman', Times, serif;
+  color: var(--company-main-color);
+  opacity: 20%;
+}
+.realBigNumber { font-size: 150px; }
