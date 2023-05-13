@@ -1,0 +1,69 @@
+.chart {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.conic_target {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+  background: conic-gradient(
+    from 280deg,
+    #3074f4 0deg 120deg,
+    #e81515 120deg 230deg,
+    #ccdc53 230deg 270deg,
+    #3b7a42 270deg
+  );
+  border-radius: 50%;
+}
+
+.conic_target::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+.program_language {
+  display: flex;
+  font-size: 26px;
+  font-weight: 700;
+  border-radius: 30%;
+  color: #000;
+  flex-wrap: wrap;
+}
+
+.program_language > p {
+  border-radius: 30px;
+  margin-left: 20px;
+  padding: 10px 20px;
+  border: 1px solid #000;
+}
+
+.program_language > p:nth-child(1) {
+  background-color: #3074f4;
+  margin-left: 0px;
+}
+
+.program_language > p:nth-child(2) {
+  background-color: #e81515;
+}
+
+.program_language > p:nth-child(3) {
+  background-color: #ccdc53;
+}
+
+.program_language > p:nth-child(4) {
+  background-color: #3b7a42;
+}
