@@ -66,10 +66,7 @@
 .social > div.social_container:first-child img { transform: scale(0.4); }
 
 .social div.social_container:nth-child(2) {
-  background-image: url('../assets/icon-instagramBackground.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: conic-gradient(from 180deg, #83A3CD 30deg, #F289AA 50deg, #E48AC1 70deg, #D78AD5 90deg, #C68BF0 110deg, #D164DA 140deg, #C963E8 220deg, #BFC2E8 260deg, #FFC999 300deg, #D0D8C9 320deg, #BAD0F1 340deg);
   box-shadow: inset -2px 0px 2px 0px rgba(1, 153, 109, 0.4);
   width: 90.84px;
   height: 83.88px;
